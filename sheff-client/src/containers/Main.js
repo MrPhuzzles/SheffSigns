@@ -11,9 +11,9 @@ const Main = props => {
     <div className="container">
       <Switch>
         <Route exact path="/" render={props => <Homepage {...props}/>}/>
-        <Route exact path="aboutus" render={props => <About{...props}/>}/>
-        <Route exact path="gallery" render={props => <Gallery{...props}/>}/>
-        <Route exact path="contactus" render={props => <Contact{...props}/>}/>
+        <Route exact path="/aboutus" render={props => <About{...props}/>}/>
+        <Route exact path="/gallery" render={props => <Gallery{...props}/>}/>
+        <Route exact path="/contactus" render={props => <Contact{...props}/>}/>
       </Switch>
     </div>
   );
