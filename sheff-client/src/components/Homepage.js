@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
     <div>
       <div id="homeTop">
-        <h1>SHEFFIELD SIGNS</h1>   {/* to be logo! */}
+        <h1 className="display-1">SHEFFIELD SIGNS</h1>   {/* to be logo! */}
         <h2>A professional and innovative solution to your sign needs!</h2>
       </div>
     </div>
