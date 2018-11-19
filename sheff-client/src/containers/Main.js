@@ -3,7 +3,7 @@ import {Switch, Route, withRouter, Redirect} from "react-router-dom";
 import {connect} from "react-redux";
 import Homepage from "../components/Homepage";
 import Gallery from "../components/Gallery";
-import Contact from "../components/Contact";s
+import Contact from "../components/Contact";
 
 const Main = props => {
   return (
@@ -13,7 +13,7 @@ const Main = props => {
         <Route exact path="/gallery" render={props => <Gallery{...props}/>}/>
         <Route exact path="/contactus" render={props => <Contact{...props}/>}/>
       </Switch>
-    </div>s
+    </div>
   );
 };
 
