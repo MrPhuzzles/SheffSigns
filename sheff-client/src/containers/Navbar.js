@@ -13,9 +13,6 @@ class Navbar extends Component {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="aboutus">About Us <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="gallery">What We've Done</a>
           </li>
           <li class="nav-item">
