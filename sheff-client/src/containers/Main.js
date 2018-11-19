@@ -3,7 +3,7 @@ import {Switch, Route, withRouter, Redirect} from "react-router-dom";
 import {connect} from "react-redux";
 import Homepage from "../components/Homepage";
 import Gallery from "../components/Gallery";
-import Contact from "../components/Contact";
+import Contact from "../components/Contact";s
 
 const Main = props => {
   return (
