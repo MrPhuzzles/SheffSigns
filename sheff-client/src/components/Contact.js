@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
           <div id="FeedbackPitch" class="jumbotron jumbotron-fluid">
           <h1>Used our services before?</h1>
-          <h4>Let us know how we did by either leaving a review or recommending us on our Facebook page!</h4>
+          <h4>Let us know how we did by leaving a review or recommending us on our Facebook page!</h4>
         </div>
   </div>
   );
