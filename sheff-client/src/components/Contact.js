@@ -9,17 +9,18 @@ const Contact = () => {
       <div id="InquireMethods" class="d-flex bd-highlight">
         <div class="p-2 flex-even bd-highlight">
           <h2>Give us a call!</h2>
-          <h5>You can call us at 289-716-4208</h5>
+          <h5>You can call us at <b>289-716-4208</b></h5>
           <h5>7 days a week before 6pm</h5>
         </div>
         <div class="p-2 flex-even bd-highlight">
           <h2>Send us an email!</h2>
-          <h5>General inquiries can also be made via the email below</h5>
-          <h5><a href="mailto:sheffieldsigns@yahoo.ca">sheffieldsigns@yahoo.ca</a></h5>
+          <h5>General inquiries can also be made via email</h5>
+          <a href="mailto:sheffieldsigns@yahoo.ca" class="btn btn-secondary active" role="button">Click here to email us!</a>
         </div>
         <div class="p-2 flex-even bd-highlight">
           <h2>Visit us on Facebook!</h2>
-          <h5>Or check out our <a href="https://www.facebook.com/Sheffield-signs-1510717192492363/">Facebook</a> page and send us a message</h5>
+          <h5>Check out our Facebook page and send us a message</h5>
+          <a href="https://www.facebook.com/Sheffield-signs-1510717192492363/" target="_blank" class="btn btn-secondary active" role="button">Our Page!</a>
         </div>
         </div>
           <div id="FeedbackPitch" class="jumbotron jumbotron-fluid">
