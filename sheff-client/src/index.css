@@ -1,7 +1,15 @@
+/* Homepage styling */
+
 #homeTop {
   text-align: center;
   flex-direction: column;
 }
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+/* Contact page stylingf */
 
 #ContactHead{
   text-align: center;
@@ -10,7 +18,7 @@
 }
 
 #InquireMethods {
-  margin-bottom: 65px;
+  margin-bottom: 45px;
 }
 
 #FeedbackPitch {

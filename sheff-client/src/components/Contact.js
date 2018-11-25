@@ -22,9 +22,9 @@ const Contact = () => {
           <h5>Or check out our <a href="https://www.facebook.com/Sheffield-signs-1510717192492363/">Facebook</a> page and send us a message</h5>
         </div>
         </div>
-          <div id="FeedbackPitch" class="d-flex flex-column bd-highlight">
-          <div class="bd-highlight"><h1>Used our services before?</h1></div>
-          <div class="bd-highlight"><h4>Let us know how we did by either leaving a review or recommending us on our Facebook page!</h4></div>
+          <div id="FeedbackPitch" class="jumbotron jumbotron-fluid">
+          <h1>Used our services before?</h1>
+          <h4>Let us know how we did by either leaving a review or recommending us on our Facebook page!</h4>
         </div>
   </div>
   );
